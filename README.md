@@ -10,5 +10,5 @@ TBD
  * WIFI/BT via RTL8723bs module
 ### Resources
 You can find all necesary information to build or evaluate the module here:
-   - [View 3D board render](https://a360.co/2GTPupk)
-   - [Fabrication files](https://github.com/vd-rd/sbc_alw_v3s/releases)
+   - [View 3D board render](https://a360.co/)
+   - [Fabrication files](https://github.com/vd-rd/sbc_alw_a13/releases)
