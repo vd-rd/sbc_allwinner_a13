@@ -884,7 +884,7 @@
     (uuid 3d0c7b31-dc87-4a57-af6a-1bc6d150bcf2)
   )
 
-  (symbol (lib_id "power:GND") (at 213.36 63.5 0)
+  (symbol (lib_id "power:GND") (at 213.36 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0aca4bf9-727a-4ad9-a7af-fa49d24bb25f)
     (property "Reference" "#PWR0112" (id 0) (at 213.36 69.85 0)
@@ -900,7 +900,7 @@
     (pin "1" (uuid 12bd0f4e-fb19-49f7-974b-293cd1222896))
   )
 
-  (symbol (lib_id "Device:LED_RGBA") (at 222.25 142.24 0)
+  (symbol (lib_id "Device:LED_RGBA") (at 222.25 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e4542c6f-28d6-46e6-881c-b2c75d89d97d)
     (property "Reference" "D1" (id 0) (at 222.25 128.27 0))
@@ -917,7 +917,7 @@
     (pin "4" (uuid a48c2e06-df2c-42c0-9113-63c9af05102b))
   )
 
-  (symbol (lib_id "Connector:USB_B_Micro") (at 215.9 50.8 0)
+  (symbol (lib_id "Connector:USB_B_Micro") (at 215.9 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4c7770e7-6b73-484a-aa85-df7ec3ea679d)
     (property "Reference" "J3" (id 0) (at 217.297 38.1 0))
@@ -936,7 +936,7 @@
     (pin "6" (uuid 01654945-e564-4c5e-b6ea-1361df0ca1f0))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x18_Odd_Even") (at 57.15 64.77 0)
+  (symbol (lib_id "Connector_Generic:Conn_02x18_Odd_Even") (at 57.15 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 14f1dfc2-d9d2-4690-9974-e771b00a3707)
     (property "Reference" "J2" (id 0) (at 58.42 38.1 0))

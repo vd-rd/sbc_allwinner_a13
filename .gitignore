@@ -71,4 +71,4 @@ fp-info-cache
 *.xml
 *.csv
 
-sbc-backups/*
+module-backups/*
