@@ -1,13 +1,23 @@
+# Allwinner A13 Board
+
 ## Description
-TBD
+
+Board overview (draft):
+[TBD]
 
 ### Features
- * CPU - Allwinner A13 (ARM Cortex-A8 @ 1Ghz)
- * RAM - DDR3 512MB
- * microSD card slot
- * microUSB OTG interface
- * standard ApolloIoT expansion header
- * WIFI/BT via RTL8723bs module
+
+| Feature | Description |
+| --- | --- |
+| Dimensions | 80mm x 40mm |
+| Processor | Allwinner A13 (ARM Cortex-A8 @ 1Ghz) |
+| Oscillators | 32.768kHz slow clock, 24MHz main clock |
+| RAM | 512MB DDR3 memory |
+| Storage | microSD/eMMC |
+| USB | 1 microUSB client / 1 USB Host |
+| WiFi | 1 SDIO adapter with wifi/bt combo |
+| Supply | Power path between USB/Vin/Battery, 5V max |
+ 
 ### Resources
 You can find all necesary information to build or evaluate the module here:
    - [View 3D board render](https://a360.co/)
