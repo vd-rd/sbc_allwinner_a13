@@ -33,14 +33,16 @@
             (xy -1.524 -0.508)
             (xy 1.524 -0.508)
           )
-          (stroke (width 0.3302)) (fill (type none))
+          (stroke (width 0.3302) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.524 0.508)
             (xy 1.524 0.508)
           )
-          (stroke (width 0.3048)) (fill (type none))
+          (stroke (width 0.3048) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "C_Small_1_1"
@@ -78,7 +80,8 @@
       )
       (symbol "R_Small_0_1"
         (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "R_Small_1_1"
@@ -268,7 +271,8 @@
       )
       (symbol "A13_1_1"
         (rectangle (start -7.62 0) (end 7.62 -81.28)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -12.7 -76.2 0) (length 5.08)
           (name "DZQ" (effects (font (size 1.27 1.27))))
@@ -359,7 +363,8 @@
       )
       (symbol "A13_2_1"
         (rectangle (start -3.81 1.27) (end 2.54 -26.67)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_3_0"
@@ -434,7 +439,8 @@
       )
       (symbol "A13_3_1"
         (rectangle (start -3.81 1.27) (end 3.81 -44.45)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_4_0"
@@ -529,7 +535,8 @@
       )
       (symbol "A13_4_1"
         (rectangle (start -3.81 0) (end 3.81 -73.66)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_5_0"
@@ -584,7 +591,8 @@
       )
       (symbol "A13_5_1"
         (rectangle (start -3.81 0) (end 3.81 -33.02)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_6_0"
@@ -615,7 +623,8 @@
       )
       (symbol "A13_6_1"
         (rectangle (start -2.54 0) (end 3.81 -17.78)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_7_0"
@@ -654,7 +663,8 @@
       )
       (symbol "A13_7_1"
         (rectangle (start -3.81 0) (end 3.81 -35.56)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -8.89 -33.02 0) (length 5.08)
           (name "PG12" (effects (font (size 1.27 1.27))))
@@ -729,7 +739,8 @@
       )
       (symbol "A13_8_1"
         (rectangle (start -6.35 0) (end 5.08 -99.06)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -11.43 -86.36 0) (length 5.08) hide
           (name "IOVCC" (effects (font (size 1.27 1.27))))
@@ -902,7 +913,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GND_1_1"
@@ -927,7 +939,8 @@
       )
       (symbol "DDR3L-x16_0_1"
         (rectangle (start -7.62 49.53) (end 7.62 -36.83)
-          (stroke (width 0)) (fill (type background))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "DDR3L-x16_1_1"

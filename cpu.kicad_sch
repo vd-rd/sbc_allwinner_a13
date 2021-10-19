@@ -33,14 +33,16 @@
             (xy -1.524 -0.508)
             (xy 1.524 -0.508)
           )
-          (stroke (width 0.3302)) (fill (type none))
+          (stroke (width 0.3302) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.524 0.508)
             (xy 1.524 0.508)
           )
-          (stroke (width 0.3048)) (fill (type none))
+          (stroke (width 0.3048) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "C_Small_1_1"
@@ -78,21 +80,24 @@
       )
       (symbol "Crystal_GND24_Small_0_1"
         (rectangle (start -0.762 -1.524) (end 0.762 1.524)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.27 -0.762)
             (xy -1.27 0.762)
           )
-          (stroke (width 0.381)) (fill (type none))
+          (stroke (width 0.381) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 1.27 -0.762)
             (xy 1.27 0.762)
           )
-          (stroke (width 0.381)) (fill (type none))
+          (stroke (width 0.381) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -101,7 +106,8 @@
             (xy 1.27 -1.905)
             (xy 1.27 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -110,7 +116,8 @@
             (xy 1.27 1.905)
             (xy 1.27 1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "Crystal_GND24_Small_1_1"
@@ -308,7 +315,8 @@
       )
       (symbol "A13_1_1"
         (rectangle (start -8.89 0) (end 7.62 -81.28)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -13.97 -76.2 0) (length 5.08)
           (name "DZQ" (effects (font (size 1.27 1.27))))
@@ -399,7 +407,8 @@
       )
       (symbol "A13_2_1"
         (rectangle (start -3.81 1.27) (end 2.54 -26.67)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_3_0"
@@ -474,7 +483,8 @@
       )
       (symbol "A13_3_1"
         (rectangle (start -3.81 1.27) (end 3.81 -44.45)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_4_0"
@@ -569,7 +579,8 @@
       )
       (symbol "A13_4_1"
         (rectangle (start -3.81 0) (end 3.81 -73.66)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_5_0"
@@ -624,7 +635,8 @@
       )
       (symbol "A13_5_1"
         (rectangle (start -3.81 0) (end 3.81 -33.02)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_6_0"
@@ -655,7 +667,8 @@
       )
       (symbol "A13_6_1"
         (rectangle (start -2.54 0) (end 3.81 -17.78)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_7_0"
@@ -694,7 +707,8 @@
       )
       (symbol "A13_7_1"
         (rectangle (start -3.81 0) (end 3.81 -35.56)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -8.89 -33.02 0) (length 5.08)
           (name "PG12" (effects (font (size 1.27 1.27))))
@@ -769,7 +783,8 @@
       )
       (symbol "A13_8_1"
         (rectangle (start -6.35 0) (end 5.08 -99.06)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -11.43 -86.36 0) (length 5.08) hide
           (name "IOVCC" (effects (font (size 1.27 1.27))))
@@ -1089,7 +1104,8 @@
       )
       (symbol "A13_1_1_1"
         (rectangle (start -8.89 0) (end 7.62 -81.28)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -13.97 -76.2 0) (length 5.08)
           (name "DZQ" (effects (font (size 1.27 1.27))))
@@ -1180,7 +1196,8 @@
       )
       (symbol "A13_1_2_1"
         (rectangle (start -3.81 1.27) (end 2.54 -26.67)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_1_3_0"
@@ -1255,7 +1272,8 @@
       )
       (symbol "A13_1_3_1"
         (rectangle (start -3.81 1.27) (end 3.81 -44.45)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_1_4_0"
@@ -1350,7 +1368,8 @@
       )
       (symbol "A13_1_4_1"
         (rectangle (start -3.81 0) (end 3.81 -73.66)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_1_5_0"
@@ -1405,7 +1424,8 @@
       )
       (symbol "A13_1_5_1"
         (rectangle (start -3.81 0) (end 3.81 -33.02)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_1_6_0"
@@ -1436,7 +1456,8 @@
       )
       (symbol "A13_1_6_1"
         (rectangle (start -2.54 0) (end 3.81 -17.78)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "A13_1_7_0"
@@ -1475,7 +1496,8 @@
       )
       (symbol "A13_1_7_1"
         (rectangle (start -3.81 0) (end 3.81 -35.56)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -8.89 -33.02 0) (length 5.08)
           (name "PG12" (effects (font (size 1.27 1.27))))
@@ -1550,7 +1572,8 @@
       )
       (symbol "A13_1_8_1"
         (rectangle (start -7.62 0) (end 5.08 -99.06)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin passive line (at -12.7 -86.36 0) (length 5.08) hide
           (name "IOVCC" (effects (font (size 1.27 1.27))))
@@ -1723,7 +1746,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GND_1_1"
@@ -1795,6 +1819,10 @@
   (wire (pts (xy 43.18 165.1) (xy 58.42 165.1))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e704f095-ff96-4efa-aed7-6fa2c09d9db3)
+  )
+  (wire (pts (xy 43.18 170.18) (xy 58.42 170.18))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid dd3139d8-82ef-4cf9-a5cc-6bae4b70dc46)
   )
   (wire (pts (xy 68.58 30.48) (xy 83.82 30.48))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2028,6 +2056,14 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid b2f009f9-adb8-4044-90eb-a157325e0112)
   )
+  (wire (pts (xy 252.73 93.98) (xy 266.7 93.98))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9c206783-2679-453b-a42f-eb1edc328cc9)
+  )
+  (wire (pts (xy 252.73 96.52) (xy 266.7 96.52))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 6e604fb9-bf28-4d5e-a9e5-254f41bc8b64)
+  )
   (wire (pts (xy 252.73 104.14) (xy 266.7 104.14))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 4c544207-4f07-46b7-979d-9264a4822e6f)
@@ -2177,6 +2213,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "PMU-VBUSEN" (shape input) (at 43.18 170.18 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 60e56bec-4151-4cb3-9461-3c1f4622862d)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 27.8598 170.1006 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "SPI0-MOSI" (shape bidirectional) (at 68.58 30.48 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b2eb643e-04ed-40a1-94d5-a6901e3e7746)
@@ -2247,6 +2290,20 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "RSB-SCK" (shape output) (at 110.49 139.7 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0694677b-8295-4200-b9d5-378d12de7f55)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 99.0055 139.6206 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "RSB-SDA" (shape bidirectional) (at 110.49 142.24 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 43782feb-bd17-49e4-9dbe-edf663f3a31a)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 99.2822 142.1606 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "+1V2_CPU" (shape input) (at 220.98 157.48 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 504b1701-ed4e-4c66-9267-76bf8a967771)
@@ -2272,6 +2329,20 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 86ba0d87-a17e-4e83-ad85-ff4c9c6d8f2c)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 223.6817 148.5106 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "~{RST}" (shape output) (at 252.73 93.98 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 89c0dd04-faa8-4c73-9573-27dc44e03f10)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 246.9651 93.9006 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "NMI" (shape output) (at 252.73 96.52 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid af1786ef-0eef-4838-8f00-151d508d5437)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 247.0255 96.4406 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
