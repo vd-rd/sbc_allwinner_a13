@@ -11,11 +11,11 @@ Board overview (draft):
 | --- | --- |
 | Dimensions | 80mm x 40mm |
 | Processor | Allwinner A13 (ARM Cortex-A8 @ 1Ghz) |
-| Oscillators | 32.768kHz slow clock, 24MHz main clock |
+| Oscillators | 24MHz main clock |
 | RAM | 512MB DDR3 memory |
 | Storage | microSD/eMMC |
-| USB | 1 microUSB client / 1 USB Host |
-| WiFi | 1 SDIO adapter with wifi/bt combo |
+| USB | 1 microUSB client |
+| WiFi | 1 USB RTL8188CUS module|
 | Supply | Power path between USB/Vin/Battery, 5V max |
  
 ### Resources
