@@ -972,8 +972,8 @@
     )
   )
 
-  (junction (at 271.78 63.5) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 223.52 60.96) (diameter 0.9144) (color 0 0 0 0))
+  (junction (at 271.78 63.5) (diameter 0.9144) (color 0 0 0 0))
 
   (wire (pts (xy 223.52 60.96) (xy 226.06 60.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))

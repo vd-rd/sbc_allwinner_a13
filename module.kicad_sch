@@ -28,7 +28,8 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)           (stroke (width 1.27) (type default) (color 0 0 0 0))
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
           (fill (type none))
         )
       )
@@ -70,23 +71,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 104.14 179.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid bdb0d1aa-b0aa-49cf-8daf-637d1fc5d4e3)
-    (property "Reference" "H6" (id 0) (at 107.95 177.7999 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 107.95 180.3399 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 104.14 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 104.14 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole") (at 45.72 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d9bb9606-51b5-4077-bc26-ffb5a5f815ca)
@@ -100,23 +84,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 45.72 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 104.14 167.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid f0a3e601-8325-4019-bc22-5b03a97bba4d)
-    (property "Reference" "H5" (id 0) (at 107.95 166.3699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 107.95 168.9099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 104.14 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 104.14 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -395,6 +362,15 @@
     (path "/ad12588b-c631-4deb-9937-3235783da242/ae4de57a-57d5-4ab2-a066-e38572ab312b"
       (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1ba4675b-9566-402f-98af-db6c0416fb4f/dc427c11-2d77-47f5-b649-5b6688403551"
+      (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/4aaeac5a-03cc-43a8-b3b6-5e0da96a247b"
+      (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1ba4675b-9566-402f-98af-db6c0416fb4f/93aa9d7e-cf68-4f7f-b757-95bc79b62d6c"
+      (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+    )
     (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/8f508925-c785-4834-ac69-7c93e6354d68"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -548,6 +524,15 @@
     (path "/ad12588b-c631-4deb-9937-3235783da242/0f231b81-bf3f-4013-9175-d59083cf4d85"
       (reference "C51") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/bcb0c83a-b43c-48d6-b4b0-6f1c5ad114be"
+      (reference "C52") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/95ffc813-4f30-4e9e-93f9-dd7fc67b3288"
+      (reference "C53") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/ad12588b-c631-4deb-9937-3235783da242/ea6f0118-80e9-4f6b-a6d3-c5d53a683722"
+      (reference "C54") (unit 1) (value "C_Small") (footprint "")
+    )
     (path "/ad12588b-c631-4deb-9937-3235783da242/21e03083-82f4-4f32-8a60-9bf554249d75"
       (reference "C807") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -616,12 +601,6 @@
     )
     (path "/169c3b48-6942-49c9-9ac6-3b5a3c00b6c2"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
-    )
-    (path "/f0a3e601-8325-4019-bc22-5b03a97bba4d"
-      (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
-    )
-    (path "/bdb0d1aa-b0aa-49cf-8daf-637d1fc5d4e3"
-      (reference "H6") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/b05216ca-e186-45bc-a6a5-c418db27ce20/fa092e91-a2bf-4166-ad3e-cb26721eddda"
       (reference "J1") (unit 1) (value "Micro_SD_Card_Det") (footprint "gct:MEM20610118800A")
@@ -736,6 +715,24 @@
     )
     (path "/ad12588b-c631-4deb-9937-3235783da242/48250835-e2c2-4a77-82f3-dd94c1428ea7"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/2dc61de9-e384-41f0-a811-7ddf22a38f64"
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/ba5ddb9b-ed0a-42c8-91d8-a7727edb35e1"
+      (reference "TP7") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/a6cf842d-d178-438d-a469-ea496d5e09b0"
+      (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/7a83641d-d155-4772-b7b8-e4f0175b47d6"
+      (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/d77dea33-5d2e-40b8-bcb2-6ade66e08953"
+      (reference "TP10") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/86faeb2b-22ff-4b91-b14f-e8022cdc7cf2/117644d7-f89e-45d9-b920-e37954e7c73c"
+      (reference "TP11") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/6f96540e-fcc9-40ef-89c0-91a52a261392/0864d695-60b1-44ec-88b7-0797ae8c6fc4"
       (reference "U1") (unit 1) (value "A13") (footprint "allwinner:LQFP-176_20x20mm_P0.4mm")
