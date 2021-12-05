@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -137,6 +137,22 @@
         {
           "diameter": 0.45,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.6
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.8
         }
       ],
       "zones_allow_external_fillets": false,
@@ -383,6 +399,90 @@
       {
         "bus_width": 12.0,
         "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ddr-ac",
+        "nets": [
+          "/memory/ddr-a0",
+          "/memory/ddr-a1",
+          "/memory/ddr-a10",
+          "/memory/ddr-a11",
+          "/memory/ddr-a12",
+          "/memory/ddr-a13",
+          "/memory/ddr-a14",
+          "/memory/ddr-a15",
+          "/memory/ddr-a2",
+          "/memory/ddr-a3",
+          "/memory/ddr-a4",
+          "/memory/ddr-a5",
+          "/memory/ddr-a6",
+          "/memory/ddr-a7",
+          "/memory/ddr-a8",
+          "/memory/ddr-a9",
+          "/memory/ddr-ba0",
+          "/memory/ddr-ba1",
+          "/memory/ddr-ba2",
+          "/memory/ddr-cas",
+          "/memory/ddr-odt",
+          "/memory/ddr-ras",
+          "/memory/ddr-rst",
+          "/memory/ddr-we"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.1016,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ddr-data",
+        "nets": [
+          "/memory/ddr-d0",
+          "/memory/ddr-d1",
+          "/memory/ddr-d10",
+          "/memory/ddr-d11",
+          "/memory/ddr-d12",
+          "/memory/ddr-d13",
+          "/memory/ddr-d14",
+          "/memory/ddr-d15",
+          "/memory/ddr-d2",
+          "/memory/ddr-d3",
+          "/memory/ddr-d4",
+          "/memory/ddr-d5",
+          "/memory/ddr-d6",
+          "/memory/ddr-d7",
+          "/memory/ddr-d8",
+          "/memory/ddr-d9",
+          "/memory/ddr-dm0",
+          "/memory/ddr-dm1",
+          "/memory/ddr-dqs0+",
+          "/memory/ddr-dqs0-",
+          "/memory/ddr-dqs1+",
+          "/memory/ddr-dqs1-"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.1016,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.12,
@@ -392,11 +492,30 @@
         "name": "ddr-diff",
         "nets": [
           "/memory/ddr-ck+",
-          "/memory/ddr-ck-",
-          "/memory/ddr-dqs0+",
-          "/memory/ddr-dqs0-",
-          "/memory/ddr-dqs1+",
-          "/memory/ddr-dqs1-"
+          "/memory/ddr-ck-"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.1016,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "usb-diff",
+        "nets": [
+          "/io/usb-d+",
+          "/io/usb-d-",
+          "USB1-DM",
+          "USB1-DP"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
