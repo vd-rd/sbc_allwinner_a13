@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 73dec3cf-7428-401a-9f0a-54950ebdba3b)
 
@@ -380,6 +380,9 @@
     (path "/ca51d75e-ddcf-49a6-9911-c973edad0203/8aea38ef-c206-44b1-a356-08ea55d3767a"
       (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b05216ca-e186-45bc-a6a5-c418db27ce20/2a77d6a1-2d28-4f66-9d12-dd060bfbd638"
+      (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1ba4675b-9566-402f-98af-db6c0416fb4f/93aa9d7e-cf68-4f7f-b757-95bc79b62d6c"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -550,6 +553,9 @@
     )
     (path "/ca51d75e-ddcf-49a6-9911-c973edad0203/774ff903-fb15-47c9-8e08-8c02b0a36322"
       (reference "C56") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/b05216ca-e186-45bc-a6a5-c418db27ce20/5ef43125-a79f-4eab-bcf8-3f225c26206e"
+      (reference "C57") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/ad12588b-c631-4deb-9937-3235783da242/21e03083-82f4-4f32-8a60-9bf554249d75"
       (reference "C807") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
