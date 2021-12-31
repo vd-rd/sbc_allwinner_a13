@@ -4,14 +4,20 @@ TBD
 
 ### Features
 
- * CPU - Allwinner A13 (ARM Cortex-A8 @ 1Ghz)
- * RAM - DDR3 512MB max (8Gbit module)
- * microSD card slot
- * microUSB OTG interface
- * standard ApolloIoT expansion header
- * LCD connector
- * WIFI/BT via RTL8188cus module
+| Characteristic | Description |
+| --- | --- |
+| Dimensions | 80mm x 40mm |
+| Processor | Allwinner A13 (ARM Cortex-A8 @ 1Ghz) |
+| Oscillators |  24MHz main clock |
+| RAM | DDR3 512MB max (8Gbit module) |
+| Storage | microSD |
+| USB | 1 microUSB OTG |
+| Ethernet | N/A |
+| WiFi/BT | RTL8188CUS module |
+| Supply | Power path between USB/ACIN/Battery, 5V max |
 
+The board also features a LCD connector with backlight and resistive touch.
+Common interfaces such as I2C, SPI, UART and GPIO are exposed on the header.
 
 ### Power considerations
 
@@ -31,6 +37,12 @@ VDD-INT and VDD-CPU can't be tied together because VDD-CPU is DVS enabled.
 A13 DRAM controller doesn't provide DDR-CS. On the memory side the pin is tied to GND.
 Memory tuning should be performed as [described here](sunxi_link)
 
+
+### Building and flashing
+
+Build U-Boot and Linux kernel + rootFS - TBD
+
+Flash to SDCard - TBD
 
 ### Resources
 
