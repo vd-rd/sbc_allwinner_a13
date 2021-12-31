@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -376,7 +376,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ram-detail.kicad_pro",
+    "filename": "module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -408,35 +408,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ddr-ac",
-        "nets": [
-          "/sdram/ddr-a0",
-          "/sdram/ddr-a1",
-          "/sdram/ddr-a10",
-          "/sdram/ddr-a11",
-          "/sdram/ddr-a12",
-          "/sdram/ddr-a13",
-          "/sdram/ddr-a14",
-          "/sdram/ddr-a15",
-          "/sdram/ddr-a2",
-          "/sdram/ddr-a3",
-          "/sdram/ddr-a4",
-          "/sdram/ddr-a5",
-          "/sdram/ddr-a6",
-          "/sdram/ddr-a7",
-          "/sdram/ddr-a8",
-          "/sdram/ddr-a9",
-          "/sdram/ddr-ba0",
-          "/sdram/ddr-ba1",
-          "/sdram/ddr-ba2",
-          "/sdram/ddr-cas",
-          "/sdram/ddr-ck+",
-          "/sdram/ddr-ck-",
-          "/sdram/ddr-cke",
-          "/sdram/ddr-odt",
-          "/sdram/ddr-ras",
-          "/sdram/ddr-rst",
-          "/sdram/ddr-we"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
@@ -454,30 +426,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ddr-data",
-        "nets": [
-          "/sdram/ddr-d0",
-          "/sdram/ddr-d1",
-          "/sdram/ddr-d10",
-          "/sdram/ddr-d11",
-          "/sdram/ddr-d12",
-          "/sdram/ddr-d13",
-          "/sdram/ddr-d14",
-          "/sdram/ddr-d15",
-          "/sdram/ddr-d2",
-          "/sdram/ddr-d3",
-          "/sdram/ddr-d4",
-          "/sdram/ddr-d5",
-          "/sdram/ddr-d6",
-          "/sdram/ddr-d7",
-          "/sdram/ddr-d8",
-          "/sdram/ddr-d9",
-          "/sdram/ddr-dm0",
-          "/sdram/ddr-dm1",
-          "/sdram/ddr-dqs0+",
-          "/sdram/ddr-dqs0-",
-          "/sdram/ddr-dqs1+",
-          "/sdram/ddr-dqs1-"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
@@ -503,7 +452,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 909,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -549,19 +498,19 @@
     ],
     [
       "9f1a06df-af64-464d-8e41-f0fa11c764fd",
-      "sdram"
+      "DDR3 Memory"
     ],
     [
       "4ed92cec-7b23-4d23-85cf-6127d8807d42",
-      "cpu"
+      "CPU Signals"
     ],
     [
       "9546cd04-00fc-4f4e-96e6-36ef0ef6e918",
-      "io"
+      "IO Connectors"
     ],
     [
       "4122b4cc-2494-4291-833b-422eb37646e4",
-      "pmic & power rails"
+      "PMIC & power rails"
     ]
   ],
   "text_variables": {}
