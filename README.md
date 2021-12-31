@@ -1,8 +1,13 @@
+# Allwinner A13 Board
+
 ## Description
-TBD
+
+Board overview (draft):
+[TBD]
 
 
 ### Features
+
 
 | Characteristic | Description |
 | --- | --- |
@@ -44,6 +49,18 @@ Build U-Boot and Linux kernel + rootFS - TBD
 
 Flash to SDCard - TBD
 
+=======
+| Feature | Description |
+| --- | --- |
+| Dimensions | 80mm x 40mm |
+| Processor | Allwinner A13 (ARM Cortex-A8 @ 1Ghz) |
+| Oscillators | 24MHz main clock |
+| RAM | 512MB DDR3 memory |
+| Storage | microSD/eMMC |
+| USB | 1 microUSB client |
+| WiFi | 1 USB RTL8188CUS module|
+| Supply | Power path between USB/Vin/Battery, 5V max |
+ 
 ### Resources
 
 You can find all necesary information to build or evaluate the module here:
