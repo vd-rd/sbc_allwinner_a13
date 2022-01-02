@@ -40,7 +40,7 @@ VDD-INT and VDD-CPU can't be tied together because VDD-CPU is DVS enabled.
 ### Memory considerations
 
 A13 DRAM controller doesn't provide DDR-CS. On the memory side the pin is tied to GND.
-Memory tuning should be performed as [described here](sunxi_link)
+Memory tuning should be performed as [described here](https://linux-sunxi.org/A10_DRAM_Controller_Calibration)
 
 
 ### Building and flashing
@@ -49,17 +49,6 @@ Build U-Boot and Linux kernel + rootFS - TBD
 
 Flash to SDCard - TBD
 
-=======
-| Feature | Description |
-| --- | --- |
-| Dimensions | 80mm x 40mm |
-| Processor | Allwinner A13 (ARM Cortex-A8 @ 1Ghz) |
-| Oscillators | 24MHz main clock |
-| RAM | 512MB DDR3 memory |
-| Storage | microSD/eMMC |
-| USB | 1 microUSB client |
-| WiFi | 1 USB RTL8188CUS module|
-| Supply | Power path between USB/Vin/Battery, 5V max |
  
 ### Resources
 
