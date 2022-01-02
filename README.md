@@ -1,5 +1,7 @@
 # Allwinner A13 Board
 
+![board_render](/assets/front.png)
+
 ## Description
 
 Board overview (draft):
