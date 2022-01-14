@@ -350,24 +350,24 @@
     (uuid d9458612-730f-4a04-a833-a8a6ad4d2843)
   )
 
-  (global_label "USB1-DM" (shape bidirectional) (at 25.4 149.86 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 09237548-d182-40d8-8023-0b78022bfc13)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.6736 149.9394 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "USB1-DP" (shape bidirectional) (at 25.4 147.32 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3a1b98e2-6d36-4b25-8e86-b599dba21da0)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.855 147.3994 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "+3V3" (shape input) (at 25.4 144.78 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 72546357-7673-4a84-9173-f883b575a71f)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 17.9069 144.8594 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "USB1-D-" (shape bidirectional) (at 25.4 149.86 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9c0fd65a-5a4b-4f64-908b-ddac1f3c71eb)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.5526 149.7806 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "USB1-D+" (shape bidirectional) (at 25.4 147.32 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e396e384-fdd5-4c77-9331-d3e0972f5ea2)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.5526 147.2406 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -867,6 +867,9 @@
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/3ae83828-a3ac-42e4-a753-f789adf22260"
       (reference "#PWR0170") (unit 1) (value "GND") (footprint "")
     )
+    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/725edbc8-6947-463f-8944-212dd34c1be3"
+      (reference "#PWR0171") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -1045,7 +1048,7 @@
       (reference "C401") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/b10f2284-1c1e-471c-a01c-cf12a7273a20"
-      (reference "C402") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C402") (unit 1) (value "220nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/b6526003-61bf-44a4-b86a-75de8733abef"
       (reference "C501") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1170,11 +1173,14 @@
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/c17a05bf-cd08-4d8f-9604-e0a37a94f09f"
       (reference "J5") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
     )
+    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/4195800d-e58e-48b0-b7a1-1f66318a40dc"
+      (reference "J910") (unit 1) (value "Conn_02x16_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x16_P1.27mm_Vertical")
+    )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/327c1ccd-1b8a-438f-a9d6-ed549ce140f0"
-      (reference "L1") (unit 1) (value "L_Small") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
+      (reference "L1") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/a4967b29-3253-4516-a59e-917d7f320b7c"
-      (reference "L2") (unit 1) (value "L_Small") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
+      (reference "L2") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/3ba92d71-f25e-4d30-af09-37297cebbc67"
       (reference "L3") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-3015")
@@ -1189,7 +1195,7 @@
       (reference "L6") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-3010")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/087adac4-3279-4000-8a96-8a6f0c58c978"
-      (reference "L910") (unit 1) (value "L_Small") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
+      (reference "L910") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/3c7e3dba-ea4b-4a1b-a8a6-68ecd3af3d9d"
       (reference "R1") (unit 1) (value "240") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1294,7 +1300,10 @@
       (reference "R910") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/f5a13e3e-1031-4013-a348-ab2877b556b3"
-      (reference "R911") (unit 1) (value "133k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R911") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/d93d35cc-fb6a-449d-8ff2-73b118c6e093"
+      (reference "R912") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/9111f3bd-9535-46f9-be1f-01b4073063a0"
       (reference "RN1") (unit 1) (value "24") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
@@ -1436,6 +1445,18 @@
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/48250835-e2c2-4a77-82f3-dd94c1428ea7"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/fa07a195-0362-4d19-bfd0-7aab5171ee18"
+      (reference "TP910") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/9a87f3a7-595e-4f6f-8e74-cd07cf7ec59a"
+      (reference "TP911") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/fa6610b3-9c75-46c2-8f5d-b94a1914f224"
+      (reference "TP912") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/bd9ed7b6-bdd9-40c0-95f6-21b0d28d4032"
+      (reference "TP913") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/985d61fe-2281-4d19-a9be-a6618b7f89a5"
       (reference "U1") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
