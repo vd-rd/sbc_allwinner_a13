@@ -21,10 +21,10 @@ Board overview (draft):
 | USB | 1 microUSB OTG |
 | Ethernet | N/A |
 | WiFi/BT | RTL8188CUS module |
+| LCD | Parallel interface 18bit |
+| Expansions | 1xUART, 1xI2C, 1xSPI, 4xGPIO, Microphone, EarphoneOut |
 | Supply | Power path between USB/ACIN/Battery, 5V max |
 
-The board also features a LCD connector with backlight and resistive touch.
-Common interfaces such as I2C, SPI, UART and GPIO are exposed on the header.
 
 ### Power considerations
 
