@@ -1030,7 +1030,7 @@
       (reference "C209") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/a60870e6-b76a-4db6-a0ab-cf116dbfae4b"
-      (reference "C210") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C210") (unit 1) (value "100uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/41ab2585-1498-4c5c-84f9-8091b3cffc4e"
       (reference "C211") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
