@@ -1245,6 +1245,9 @@
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/83c71978-a357-4581-829b-fbc825252be6"
       (reference "R16") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/0919e808-bf9a-4b3b-86fc-21c83e03aca5"
+      (reference "R17") (unit 1) (value "0/dnp") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/d8f56f84-a3d5-45e5-bdfb-ee762eaf387a"
       (reference "R18") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
