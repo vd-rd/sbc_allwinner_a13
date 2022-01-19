@@ -72,3 +72,5 @@ fp-info-cache
 *.csv
 
 module-backups/*
+outputs/*
+#auto_saved_files#

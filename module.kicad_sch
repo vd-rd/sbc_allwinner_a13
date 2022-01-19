@@ -873,6 +873,9 @@
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/bb005ce5-6787-4eb0-bca7-e966366d21af"
       (reference "#PWR0172") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/e5732a90-7446-4a2b-afb4-0f17831210f3"
+      (reference "#PWR0173") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -1484,6 +1487,9 @@
     )
     (path "/cfc6cdb5-1df2-4cd4-ba9f-0a17c71fffd4"
       (reference "U2") (unit 1) (value "RTL8188CUS") (footprint "wifi:RTL8188CUS")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/f1412478-1a32-49f8-84a1-b9b263169575"
+      (reference "U3") (unit 1) (value "74AHC1G125") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/78c712d8-743d-4a6d-8662-2c2dd36cd008"
       (reference "U100") (unit 1) (value "A13") (footprint "allwinner:LQFP-176_20x20mm_P0.4mm")
