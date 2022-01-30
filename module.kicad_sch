@@ -732,9 +732,6 @@
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/2432526b-e050-4fab-a65e-a51416fa7287"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
-    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/32c31565-6cf8-4802-b856-48de55b8448a"
-      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
-    )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/d71ac2cc-4b55-4dd2-81f9-068e18ed3971"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
@@ -1164,8 +1161,8 @@
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/8f2e5ca3-96f8-4f61-bc05-6d117ec38d93"
       (reference "J1") (unit 1) (value "Micro_SD_Card_Det") (footprint "gct:MEM20610118800A")
     )
-    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/37a63d24-4e5a-444f-8fcd-e10bee148370"
-      (reference "J2") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x20_P1.27mm_Vertical")
+    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/67b810e7-b7f4-4fc8-89a7-9c371140114a"
+      (reference "J2") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/14491313-c362-4522-af8c-f043f102cbc2"
       (reference "J3") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
@@ -1531,7 +1528,7 @@
       (reference "Y1") (unit 1) (value "24MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/2a54f31c-c6bd-4aef-98cf-4148afce8469"
-      (reference "Y2") (unit 1) (value "32.768kHz") (footprint "")
+      (reference "Y2") (unit 1) (value "32.768kHz") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
     )
   )
 )

@@ -3675,7 +3675,7 @@
     (property "Value" "32.768kHz" (id 1) (at 179.07 101.5999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 176.53 100.33 0)
+    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" (id 2) (at 176.53 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 176.53 100.33 0)
