@@ -873,8 +873,14 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/e5732a90-7446-4a2b-afb4-0f17831210f3"
       (reference "#PWR0173") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/9a698e76-4234-4b16-b788-d059633f5104"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+    )
+    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/72616612-d502-4e5c-8d3c-0e1b715fac0b"
+      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/71a0461f-34e4-4b50-8efd-b4e5373acaa7"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
