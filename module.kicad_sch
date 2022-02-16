@@ -474,7 +474,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 133.35 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 77df5590-6902-4355-8181-65f2e7e6c536)
-    (property "Reference" "FID?" (id 0) (at 135.89 172.7199 0)
+    (property "Reference" "FID1" (id 0) (at 135.89 172.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (id 1) (at 135.89 175.2599 0)
@@ -526,7 +526,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 163.83 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9eebb29f-0a0b-4507-ad3b-f80298ba6f96)
-    (property "Reference" "FID?" (id 0) (at 166.37 171.4499 0)
+    (property "Reference" "FID3" (id 0) (at 166.37 171.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (id 1) (at 166.37 173.9899 0)
@@ -600,7 +600,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 148.59 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d4f92b42-6760-4903-8118-ed963ee70cca)
-    (property "Reference" "FID?" (id 0) (at 151.13 172.7199 0)
+    (property "Reference" "FID2" (id 0) (at 151.13 172.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (id 1) (at 151.13 175.2599 0)
@@ -908,6 +908,9 @@
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/d62861b6-578e-45a1-be0c-8618901da5ed"
       (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/9a698e76-4234-4b16-b788-d059633f5104"
+      (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/14b51003-e128-4b08-b716-de011ec3a540"
       (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
     )
@@ -952,9 +955,6 @@
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/e5732a90-7446-4a2b-afb4-0f17831210f3"
       (reference "#PWR0173") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/9a698e76-4234-4b16-b788-d059633f5104"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
@@ -1236,13 +1236,13 @@
       (reference "D2") (unit 1) (value "ESD9B5.0ST5G") (footprint "Diode_SMD:D_SOD-923")
     )
     (path "/77df5590-6902-4355-8181-65f2e7e6c536"
-      (reference "FID?") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
-    )
-    (path "/9eebb29f-0a0b-4507-ad3b-f80298ba6f96"
-      (reference "FID?") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
+      (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
     )
     (path "/d4f92b42-6760-4903-8118-ed963ee70cca"
-      (reference "FID?") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
+      (reference "FID2") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
+    )
+    (path "/9eebb29f-0a0b-4507-ad3b-f80298ba6f96"
+      (reference "FID3") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
     )
     (path "/675d101b-b80c-4515-a614-940ff7679a6b"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
