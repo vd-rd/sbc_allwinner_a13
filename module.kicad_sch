@@ -1374,10 +1374,10 @@
       (reference "R701") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/f54101b6-50df-4336-8519-fc2cb6f9dfb4"
-      (reference "R801") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R801") (unit 1) (value "1.8k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/99b1cd60-48da-4c6b-a64a-752162c38dec"
-      (reference "R802") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R802") (unit 1) (value "1.8k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/8cf5a1d3-e9d4-4268-97de-1da8d0967cfb"
       (reference "R804") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1567,6 +1567,9 @@
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/bd9ed7b6-bdd9-40c0-95f6-21b0d28d4032"
       (reference "TP913") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/069ba493-d86e-4f27-aa1f-c51d87b8ed94"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/985d61fe-2281-4d19-a9be-a6618b7f89a5"
       (reference "U1") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
