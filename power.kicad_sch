@@ -2101,7 +2101,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 270.51 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 069ba493-d86e-4f27-aa1f-c51d87b8ed94)
-    (property "Reference" "TP?" (id 0) (at 275.2091 67.6715 90)
+    (property "Reference" "TP10" (id 0) (at 275.2091 67.6715 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (id 1) (at 275.2091 70.4466 90)
