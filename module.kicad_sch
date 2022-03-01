@@ -1386,10 +1386,10 @@
       (reference "R823") (unit 1) (value "200K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/0230eee1-906a-4e23-8054-1d9799dda2c2"
-      (reference "R825") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R825") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/1e7935ff-5ca0-4961-8448-0664be46b984"
-      (reference "R848") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R848") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/60390738-3b6f-4084-a63c-96c698bca8e8"
       (reference "R901") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
