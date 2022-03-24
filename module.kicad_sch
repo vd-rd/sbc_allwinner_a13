@@ -959,6 +959,9 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/7232e13b-f202-4c21-84d3-01a6d9740868"
       (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/16b66ed3-cae7-4230-90a8-183b17fb494b"
+      (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -1534,6 +1537,9 @@
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/cb9fcc0b-1314-4f56-954e-3a2ec3f6e199"
       (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQP7C")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/4de7f820-83fa-4266-9c94-21ad0006bccd"
+      (reference "TH1") (unit 1) (value "Thermistor_NTC") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/615f90f8-17ba-4042-8ef5-84a345d63b64"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
