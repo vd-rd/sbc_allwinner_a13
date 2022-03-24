@@ -956,6 +956,9 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/e5732a90-7446-4a2b-afb4-0f17831210f3"
       (reference "#PWR0173") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/7232e13b-f202-4c21-84d3-01a6d9740868"
+      (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -1191,10 +1194,10 @@
       (reference "C833") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/200eab50-3638-45ca-9cbb-ff53530d6cbe"
-      (reference "C835") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C835") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/0d22bbe7-b108-4d88-a08e-0de2a08f8616"
-      (reference "C839") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C839") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/9d1028dd-4e2b-447b-bc1c-4203976139f6"
       (reference "C840") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1204,6 +1207,9 @@
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/7f7cee2e-73e5-4e12-b217-5868f9101aef"
       (reference "C844") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/cac89a66-b0ed-4c53-b214-3228113b78ce"
+      (reference "C860") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/af900dab-b25d-4d3f-931b-05d9e48f8486"
       (reference "C901") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
