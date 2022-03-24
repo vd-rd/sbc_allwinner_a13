@@ -962,6 +962,9 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/16b66ed3-cae7-4230-90a8-183b17fb494b"
       (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/b34bdb27-dd97-4676-89bc-c42d0b881cb6"
+      (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -1102,6 +1105,12 @@
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/b683515b-5823-47b8-afb2-90f69098d7fe"
       (reference "C45") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/be576af3-b948-4e47-be50-fa77994fcdf9"
+      (reference "C46") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/d1906159-c1e8-4766-a91f-585b141ac579"
+      (reference "C47") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/381e57a8-1e5e-4584-9485-0c159e830560"
       (reference "C200") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1244,6 +1253,9 @@
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/c9cd03ce-0acd-4c89-b5dc-3e3497ec9525"
       (reference "D2") (unit 1) (value "ESD9B5.0ST5G") (footprint "Diode_SMD:D_SOD-923")
     )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/bdf4f03c-8a24-4f78-8989-d168dece00c3"
+      (reference "D3") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
     (path "/77df5590-6902-4355-8181-65f2e7e6c536"
       (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm")
     )
@@ -1360,6 +1372,9 @@
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/545eeefa-fc14-4c21-a980-7899ea8cee52"
       (reference "R20") (unit 1) (value "6.8k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/4122b4cc-2494-4291-833b-422eb37646e4/4c955a8d-fcbe-4be8-91c7-1f9269f12510"
+      (reference "R21") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/40ffcf7b-9368-4f73-bc48-ee0b9f514a99"
       (reference "R200") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
