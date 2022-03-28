@@ -1608,7 +1608,7 @@
       (reference "TP913") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/985d61fe-2281-4d19-a9be-a6618b7f89a5"
-      (reference "U1") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-666")
+      (reference "U1") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/cfc6cdb5-1df2-4cd4-ba9f-0a17c71fffd4"
       (reference "U2") (unit 1) (value "RTL8188CUS") (footprint "wifi:RTL8188CUS")
