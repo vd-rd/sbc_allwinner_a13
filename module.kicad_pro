@@ -45,7 +45,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.154
+          "min_clearance": 0.13999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -63,7 +63,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -90,12 +90,12 @@
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -103,7 +103,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.1016,
+        "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.39999999999999997,
         "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.19999999999999998,
@@ -114,7 +114,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.12,
         "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.1016,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.125,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
