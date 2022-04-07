@@ -1,5 +1,6 @@
 (version 1)
 (rule "BGA neckdown"
+   (layer outer)
    (constraint track_width (min 0.127mm) (opt 0.154mm))
    (constraint clearance (min 0.1016mm) (opt 0.154mm))
    (condition "A.insideCourtyard('U200')"))
