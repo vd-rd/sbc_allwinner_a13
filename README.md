@@ -25,6 +25,12 @@ Board overview (draft):
 | Expansions | 1xUART, 1xI2C, 1xSPI, 4xGPIO, Microphone, EarphoneOut |
 | Supply | Power path between USB/ACIN/Battery, 5V max |
 
+### Expansions
+ The board can be combined with several predefined capes that add functionality.
+ * [LCD cape](https://github.com/vd-rd/hw_cape_lcd) can be used to add a 3inch LCD/Touch with 800x480px resolution.
+ * [GPS cape](https://github.com/vd-rd/hw_cape_gps) adds GPS/GNSS/GLONAS capabilities
+ * [GSM cape](https://github.com/vd-rd/hw_cape_gsm) adds GPRS connectivity. 
+
 
 ### Power considerations
 
