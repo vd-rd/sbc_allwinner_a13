@@ -812,9 +812,6 @@
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/2432526b-e050-4fab-a65e-a51416fa7287"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/b90e70fd-9f34-4442-a4b6-c35cc64cf9d4"
-      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
-    )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/d71ac2cc-4b55-4dd2-81f9-068e18ed3971"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
@@ -905,12 +902,6 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/f1d6d1ca-5fb8-4cd2-af13-90af865f1041"
       (reference "#PWR0156") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/d62861b6-578e-45a1-be0c-8618901da5ed"
-      (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/9a698e76-4234-4b16-b788-d059633f5104"
-      (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
-    )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/14b51003-e128-4b08-b716-de011ec3a540"
       (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
     )
@@ -962,14 +953,8 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/16b66ed3-cae7-4230-90a8-183b17fb494b"
       (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/b34bdb27-dd97-4676-89bc-c42d0b881cb6"
-      (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
-    )
     (path "/a827616c-2fb5-4b26-8579-e6798ba68ab7"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
-    )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/72616612-d502-4e5c-8d3c-0e1b715fac0b"
-      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/71a0461f-34e4-4b50-8efd-b4e5373acaa7"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1000,9 +985,6 @@
     )
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/ac7e8dce-0a69-4e09-b856-c625ef9c8c82"
       (reference "C10") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/5cbf088a-8437-4e84-85c1-4d1d06807bd6"
-      (reference "C11") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/498706cf-109e-4832-b6bf-b122b9668c73"
       (reference "C12") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1105,12 +1087,6 @@
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/b683515b-5823-47b8-afb2-90f69098d7fe"
       (reference "C45") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/be576af3-b948-4e47-be50-fa77994fcdf9"
-      (reference "C46") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/d1906159-c1e8-4766-a91f-585b141ac579"
-      (reference "C47") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/381e57a8-1e5e-4584-9485-0c159e830560"
       (reference "C200") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1616,9 +1592,6 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/f1412478-1a32-49f8-84a1-b9b263169575"
       (reference "U3") (unit 1) (value "74AHC1G125") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
     )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/b3e8ee36-4889-465f-962b-e5f603e0da07"
-      (reference "U4") (unit 1) (value "MCP7940N-xST") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
-    )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/78c712d8-743d-4a6d-8662-2c2dd36cd008"
       (reference "U100") (unit 1) (value "A13") (footprint "allwinner:LQFP-176_20x20mm_P0.4mm")
     )
@@ -1664,11 +1637,11 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/32c14136-b276-432b-90ab-82324177e009"
       (reference "U910") (unit 1) (value "AP61100") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
+    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/b79282a7-f8aa-43bc-98a8-26a895acec38"
+      (reference "U?") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
+    )
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/993ce686-65a6-48b6-9e5b-49ebe15725a9"
       (reference "Y1") (unit 1) (value "24MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
-    )
-    (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/2a54f31c-c6bd-4aef-98cf-4148afce8469"
-      (reference "Y2") (unit 1) (value "32.768kHz") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
     )
   )
 )
