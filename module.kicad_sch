@@ -1581,13 +1581,13 @@
       (reference "TP13") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/fa07a195-0362-4d19-bfd0-7aab5171ee18"
-      (reference "TP910") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP15") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/9a87f3a7-595e-4f6f-8e74-cd07cf7ec59a"
-      (reference "TP911") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/fa6610b3-9c75-46c2-8f5d-b94a1914f224"
-      (reference "TP912") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/bd9ed7b6-bdd9-40c0-95f6-21b0d28d4032"
       (reference "TP913") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
