@@ -1265,20 +1265,20 @@
     (path "/fa7d2c9c-1bcf-4d2a-9601-e4a840887a7a"
       (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
     )
-    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/8f2e5ca3-96f8-4f61-bc05-6d117ec38d93"
-      (reference "J1") (unit 1) (value "Micro_SD_Card_Det") (footprint "gct:MEM20610118800A")
-    )
-    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/67b810e7-b7f4-4fc8-89a7-9c371140114a"
-      (reference "J2") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
-    )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/14491313-c362-4522-af8c-f043f102cbc2"
-      (reference "J3") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/0620e152-f63e-448f-8667-128e586c2b54"
-      (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
+      (reference "J100") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
+    )
+    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/8f2e5ca3-96f8-4f61-bc05-6d117ec38d93"
+      (reference "J101") (unit 1) (value "Micro_SD_Card_Det") (footprint "gct:MEM20610118800A")
     )
     (path "/4ed92cec-7b23-4d23-85cf-6127d8807d42/c17a05bf-cd08-4d8f-9604-e0a37a94f09f"
-      (reference "J5") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
+      (reference "J200") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
+    )
+    (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/67b810e7-b7f4-4fc8-89a7-9c371140114a"
+      (reference "J300") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
     )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/327c1ccd-1b8a-438f-a9d6-ed549ce140f0"
       (reference "L1") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
@@ -1550,9 +1550,6 @@
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/12c3cee4-567f-4d48-853e-979e3859488f"
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/4122b4cc-2494-4291-833b-422eb37646e4/a9fa5a4e-2e06-4fc9-a472-cd8e7bd06dad"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/4122b4cc-2494-4291-833b-422eb37646e4/48250835-e2c2-4a77-82f3-dd94c1428ea7"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -1590,7 +1587,7 @@
       (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/9f1a06df-af64-464d-8e41-f0fa11c764fd/bd9ed7b6-bdd9-40c0-95f6-21b0d28d4032"
-      (reference "TP913") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/9546cd04-00fc-4f4e-96e6-36ef0ef6e918/985d61fe-2281-4d19-a9be-a6618b7f89a5"
       (reference "U1") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
