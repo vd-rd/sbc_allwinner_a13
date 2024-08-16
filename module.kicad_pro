@@ -64,7 +64,11 @@
           "width": 0.12
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "track_dangling|117200000|97846447|0bdafd07-53c4-4771-bc30-c326e5864699|00000000-0000-0000-0000-000000000000",
+        "track_dangling|117200000|98553552|1f6deadc-5a24-490e-ab8d-4f96e93ff76f|00000000-0000-0000-0000-000000000000",
+        "track_dangling|117553553|98200000|3dc009b9-8d98-4a24-aec2-3512b099cfda|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,6 +89,7 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -140,7 +145,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -233,6 +238,10 @@
         {
           "diameter": 0.45,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -514,9 +523,9 @@
         "name": "ddr-ac",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.145,
+        "track_width": 0.1016,
         "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -531,9 +540,9 @@
         "name": "ddr-data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.145,
+        "track_width": 0.1016,
         "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -548,9 +557,9 @@
         "name": "ddr-data-lower",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.145,
+        "track_width": 0.1016,
         "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -565,9 +574,9 @@
         "name": "ddr-data-upper",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.145,
+        "track_width": 0.1016,
         "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -613,79 +622,15 @@
     "netclass_patterns": [
       {
         "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a0"
+        "pattern": "/DDR3 Memory/ddr-a[0-9]"
       },
       {
         "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a1"
+        "pattern": "/DDR3 Memory/ddr-a1[0-5]"
       },
       {
         "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a10"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a11"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a12"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a13"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a14"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a15"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a2"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a3"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a4"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a5"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a6"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a7"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a8"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-a9"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-ba0"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-ba1"
-      },
-      {
-        "netclass": "ddr-ac",
-        "pattern": "/DDR3 Memory/ddr-ba2"
+        "pattern": "/DDR3 Memory/ddr-ba[0-2]"
       },
       {
         "netclass": "ddr-ac",
@@ -721,35 +666,7 @@
       },
       {
         "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d0"
-      },
-      {
-        "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d1"
-      },
-      {
-        "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d2"
-      },
-      {
-        "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d3"
-      },
-      {
-        "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d4"
-      },
-      {
-        "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d5"
-      },
-      {
-        "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d6"
-      },
-      {
-        "netclass": "ddr-data-lower",
-        "pattern": "/DDR3 Memory/ddr-d7"
+        "pattern": "/DDR3 Memory/ddr-d[0-7]"
       },
       {
         "netclass": "ddr-data-lower",
@@ -765,35 +682,11 @@
       },
       {
         "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d10"
+        "pattern": "/DDR3 Memory/ddr-d1[0-5]"
       },
       {
         "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d11"
-      },
-      {
-        "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d12"
-      },
-      {
-        "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d13"
-      },
-      {
-        "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d14"
-      },
-      {
-        "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d15"
-      },
-      {
-        "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d8"
-      },
-      {
-        "netclass": "ddr-data-upper",
-        "pattern": "/DDR3 Memory/ddr-d9"
+        "pattern": "/DDR3 Memory/ddr-d[8-9]"
       },
       {
         "netclass": "ddr-data-upper",
@@ -930,6 +823,46 @@
       {
         "netclass": "usb-lines",
         "pattern": "USB1-D-"
+      },
+      {
+        "netclass": "ddr-ac",
+        "pattern": "/DDR3 Memory/a*"
+      },
+      {
+        "netclass": "ddr-ac",
+        "pattern": "/DDR3 Memory/ba*"
+      },
+      {
+        "netclass": "ddr-ac",
+        "pattern": "/DDR3 Memory/ras"
+      },
+      {
+        "netclass": "ddr-ac",
+        "pattern": "/DDR3 Memory/cas"
+      },
+      {
+        "netclass": "ddr-ac",
+        "pattern": "/DDR3 Memory/we"
+      },
+      {
+        "netclass": "ddr-ac",
+        "pattern": "/DDR3 Memory/rst"
+      },
+      {
+        "netclass": "ddr-ac",
+        "pattern": "/DDR3 Memory/odt"
+      },
+      {
+        "netclass": "ddr-data-lower",
+        "pattern": "/DDR3 Memory/d0[0-7]"
+      },
+      {
+        "netclass": "ddr-data-upper",
+        "pattern": "/DDR3 Memory/d0[8-9]"
+      },
+      {
+        "netclass": "ddr-data-upper",
+        "pattern": "/DDR3 Memory/d1[0-5]"
       }
     ]
   },
@@ -949,6 +882,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
