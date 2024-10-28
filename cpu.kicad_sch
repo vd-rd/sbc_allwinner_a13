@@ -8942,6 +8942,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 100.33) (xy 265.43 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d093562-2783-4a53-9a7d-abf958051c4c")
+	)
+	(wire
+		(pts
 			(xy 254 163.83) (xy 261.62 163.83)
 		)
 		(stroke
@@ -9129,6 +9139,16 @@
 			(type solid)
 		)
 		(uuid "6bae8bc6-d5d3-4ca5-9f4e-239420685bba")
+	)
+	(wire
+		(pts
+			(xy 29.21 30.48) (xy 36.83 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0b19da-44ff-4dbb-a075-5af7927f6dd3")
 	)
 	(wire
 		(pts
@@ -9339,6 +9359,16 @@
 			(type default)
 		)
 		(uuid "916d1965-07db-48c8-bedf-2e8e5e82c409")
+	)
+	(wire
+		(pts
+			(xy 29.21 33.02) (xy 36.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936421ff-2218-428e-8d58-f93103ab72bd")
 	)
 	(wire
 		(pts
@@ -11380,6 +11410,28 @@
 			)
 		)
 	)
+	(global_label "FEL"
+		(shape input)
+		(at 251.46 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c4f087a-1a46-4cbf-8df5-9b8e587a5fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.2091 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD-D3"
 		(shape output)
 		(at 134.62 41.91 180)
@@ -11569,6 +11621,28 @@
 		(uuid "88e18eca-0165-49c2-a215-2bc975dbdefe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.1741 156.1306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FEL"
+		(shape input)
+		(at 29.21 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f42e573-15c4-4458-bcf7-24feac57f01d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.9591 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16296,6 +16370,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 36.83 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ff54dfb-0c6e-4699-b083-2011d96ab4ce")
+		(property "Reference" "TP14"
+			(at 41.5291 32.1115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 30.48 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 36.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c87b8da8-8b5c-4e19-a95f-ff0f110a70f3")
+		)
+		(instances
+			(project "module"
+				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/4ed92cec-7b23-4d23-85cf-6127d8807d42"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "allwinner:A13")
 		(at 214.63 40.64 0)
 		(unit 5)
@@ -17019,6 +17159,72 @@
 			(project "module"
 				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/4ed92cec-7b23-4d23-85cf-6127d8807d42"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 36.83 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f21e5db-6a44-4a62-aa5a-e343f91ffbf1")
+		(property "Reference" "TP4"
+			(at 41.5291 29.5715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 30.48 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 36.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b15f64-d064-4c4f-a39f-7052d2c5bcfa")
+		)
+		(instances
+			(project "module"
+				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/4ed92cec-7b23-4d23-85cf-6127d8807d42"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -18823,6 +19029,71 @@
 			(project "module"
 				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/4ed92cec-7b23-4d23-85cf-6127d8807d42"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae2a76c2-75d0-4eaf-a9f9-fb3b648009d5")
+		(property "Reference" "#PWR01"
+			(at 29.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98e9c581-1d90-43ac-99c6-5d403b62a3a0")
+		)
+		(instances
+			(project "module"
+				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/4ed92cec-7b23-4d23-85cf-6127d8807d42"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
