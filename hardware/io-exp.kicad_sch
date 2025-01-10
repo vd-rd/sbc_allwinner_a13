@@ -4983,6 +4983,12 @@
 		(uuid "3a49341f-af04-4de5-8082-2ac2fc0f6190")
 	)
 	(junction
+		(at 64.77 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0e3dac-6731-4c07-b7aa-61ba725a728e")
+	)
+	(junction
 		(at 59.69 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5815,6 +5821,16 @@
 			(type default)
 		)
 		(uuid "6a3e7002-6833-42ed-944e-35fe6ad7a092")
+	)
+	(wire
+		(pts
+			(xy 64.77 165.1) (xy 64.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6bf104d2-4112-4fd6-afac-438a2bde93c3")
 	)
 	(wire
 		(pts
@@ -8194,28 +8210,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT_GND"
-		(shape input)
-		(at 64.77 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dfd9bc4b-51b5-453e-8586-9413909f0499")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.3474 165.0206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
