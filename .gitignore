@@ -71,6 +71,7 @@ fp-info-cache
 *.xml
 *.csv
 
-module-backups/*
-outputs/*
+hardware/module-backups/*
+hardware/outputs/*
+hardware/production/*
 #auto_saved_files#
