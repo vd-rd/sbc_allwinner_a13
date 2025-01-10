@@ -4,6 +4,13 @@ theme:
   name: material
   palette:
     primary: lime
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
+plugins: 
+  - search
+
 nav:
   - Home: index.md
   - Getting started: getting-started.md
