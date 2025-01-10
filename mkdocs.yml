@@ -4,3 +4,19 @@ theme:
   name: material
   palette:
     primary: lime
+nav:
+  - Home: index.md
+  - Getting started: getting_started.md
+  - Hardware: 
+    - hardware.md
+    - Build your own: hardware-ref/build-your-own.md
+    - Introduction: hardware-ref/introduction.md
+    - Schematics: hardware-ref/schematics.md
+    - PCB: hardware-ref/pcb.md
+    - BOM: hardware-ref/bom.md
+    - Components: hardware-ref/components.md 
+  - Software: 
+    - software.md
+    - Compile from source: software-ref/compile-from-source.md
+    - Introduction: software-ref/introduction.md
+    
