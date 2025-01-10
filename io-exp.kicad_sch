@@ -6654,7 +6654,6 @@
 	)
 	(label "usb-d+"
 		(at 168.91 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6665,7 +6664,6 @@
 	)
 	(label "usb-d-"
 		(at 168.91 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6676,7 +6674,6 @@
 	)
 	(label "usb-d+"
 		(at 260.35 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6687,7 +6684,6 @@
 	)
 	(label "usb-d-"
 		(at 228.6 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6775,28 +6771,6 @@
 		(uuid "12b16bce-22d6-4d74-802e-7a559c6d67ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.6992 63.5794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V3_LDO"
-		(shape input)
-		(at 67.31 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "146f317f-a4cc-48a2-9995-e54ca5e5c03d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.3993 65.9606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,6 +7123,28 @@
 		(uuid "4e287f9b-7cfe-4e65-a513-8ab6aebfcbb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 193.155 83.7406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3_periph"
+		(shape output)
+		(at 67.31 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f90720e-c228-45b2-9de9-c3b4aa216c55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.2694 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,7 +10680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 172.72 91.44 0)
 			(effects
 				(font

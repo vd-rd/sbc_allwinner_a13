@@ -2838,12 +2838,6 @@
 		(uuid "e63ac9c3-b118-4cc7-a31b-494a9afe70c2")
 	)
 	(junction
-		(at 49.53 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec19e519-279b-4d08-8288-be58fe8a8d44")
-	)
-	(junction
 		(at 195.58 88.9)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -3269,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 53.34) (xy 58.42 53.34)
+			(xy 43.18 53.34) (xy 58.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3966,16 +3960,6 @@
 			(type default)
 		)
 		(uuid "b60c11e6-00cd-4501-a289-9945cb8e3c31")
-	)
-	(wire
-		(pts
-			(xy 43.18 53.34) (xy 49.53 53.34)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "b682b154-0031-446e-ac34-400481d4cf9a")
 	)
 	(wire
 		(pts
@@ -4676,7 +4660,6 @@
 	)
 	(label "vint"
 		(at 132.08 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4687,7 +4670,6 @@
 	)
 	(label "pmu_en"
 		(at 261.62 17.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4698,7 +4680,6 @@
 	)
 	(label "vint"
 		(at 173.99 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4709,7 +4690,6 @@
 	)
 	(label "lx1"
 		(at 238.76 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4720,7 +4700,6 @@
 	)
 	(label "pmu_en"
 		(at 132.08 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4731,7 +4710,6 @@
 	)
 	(label "lx1"
 		(at 186.69 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4739,28 +4717,6 @@
 			(justify left bottom)
 		)
 		(uuid "c97bb6da-74c3-4dad-b8a6-4251037e8da1")
-	)
-	(global_label "+3V3_LDO"
-		(shape input)
-		(at 257.81 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "009c36e1-796c-4dd9-bd86-2e12b9e9605d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.7207 38.1794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "IPS"
 		(shape input)
@@ -5369,6 +5325,28 @@
 		(uuid "950465f0-7cba-41d6-bc9f-2aa549faa9bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.3869 96.5994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3_periph"
+		(shape output)
+		(at 257.81 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96227fcf-22e8-475c-ad61-46ed474168e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.8506 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254 156.21 0)
 			(effects
 				(font
@@ -7216,76 +7194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 267.97 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2393e5a3-b3c1-4eb1-af16-5bc66a7ac8f5")
-		(property "Reference" "C42"
-			(at 270.2942 80.3715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 270.2942 83.1466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56b7f98b-af6e-4723-990e-39640642c1b3")
-		)
-		(pin "2"
-			(uuid "d99aad4d-8a7c-4eff-88b0-6cf9cb544a94")
-		)
-		(instances
-			(project "module"
-				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/4122b4cc-2494-4291-833b-422eb37646e4"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 270.51 20.32 270)
 		(unit 1)
@@ -7797,7 +7705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 60.96 0)
 			(effects
 				(font
@@ -9033,7 +8941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.66 156.21 0)
 			(effects
 				(font
@@ -9103,7 +9011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 55.88 0)
 			(effects
 				(font
@@ -10441,76 +10349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 49.53 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1a6c22d-c40e-40c7-91ce-6c8614e38fa1")
-		(property "Reference" "C40"
-			(at 51.8542 54.9715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 51.8542 57.7466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65d4702b-88e4-4992-a6fe-53022259051a")
-		)
-		(pin "2"
-			(uuid "bf3efcef-5692-4912-bc43-222716f9654b")
-		)
-		(instances
-			(project "module"
-				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/4122b4cc-2494-4291-833b-422eb37646e4"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 60.96 0)
 		(unit 1)
@@ -10893,7 +10731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.38 151.13 0)
 			(effects
 				(font
@@ -11768,7 +11606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 60.96 0)
 			(effects
 				(font

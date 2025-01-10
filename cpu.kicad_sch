@@ -10202,7 +10202,6 @@
 	)
 	(label "vra1"
 		(at 252.73 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10213,7 +10212,6 @@
 	)
 	(label "vrp"
 		(at 252.73 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10224,7 +10222,6 @@
 	)
 	(label "hp_vcc"
 		(at 205.74 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10235,7 +10232,6 @@
 	)
 	(label "hse_in"
 		(at 194.31 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10246,7 +10242,6 @@
 	)
 	(label "hse_in"
 		(at 254 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10257,7 +10252,6 @@
 	)
 	(label "micin"
 		(at 194.31 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10268,7 +10262,6 @@
 	)
 	(label "hpoutl"
 		(at 196.85 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10279,7 +10272,6 @@
 	)
 	(label "vmic"
 		(at 170.18 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10290,7 +10282,6 @@
 	)
 	(label "hpoutr"
 		(at 170.18 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10301,7 +10292,6 @@
 	)
 	(label "hp_bp"
 		(at 166.37 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10312,7 +10302,6 @@
 	)
 	(label "hp_vcc"
 		(at 252.73 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10323,7 +10312,6 @@
 	)
 	(label "hse_out"
 		(at 170.18 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10334,7 +10322,6 @@
 	)
 	(label "hpoutr"
 		(at 252.73 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10345,7 +10332,6 @@
 	)
 	(label "hse_out"
 		(at 254 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10356,7 +10342,6 @@
 	)
 	(label "hpoutl"
 		(at 252.73 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10367,7 +10352,6 @@
 	)
 	(label "vra1"
 		(at 185.42 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10378,7 +10362,6 @@
 	)
 	(label "vra2"
 		(at 185.42 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10389,7 +10372,6 @@
 	)
 	(label "vra2"
 		(at 252.73 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10400,7 +10382,6 @@
 	)
 	(label "hp_bp"
 		(at 252.73 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10411,7 +10392,6 @@
 	)
 	(label "hpcom"
 		(at 252.73 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10422,7 +10402,6 @@
 	)
 	(label "hpcom"
 		(at 196.85 21.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10433,7 +10412,6 @@
 	)
 	(label "vrp"
 		(at 205.74 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10444,7 +10422,6 @@
 	)
 	(label "vmic"
 		(at 252.73 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10455,7 +10432,6 @@
 	)
 	(label "micin"
 		(at 252.73 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
