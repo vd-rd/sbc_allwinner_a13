@@ -1,0 +1,6 @@
+site_name: SBC - Allwinner A13
+site_url: https://vd-rd.github.io/sbc_allwinner_a13
+theme:
+  name: material
+  palette:
+    primary: lime
