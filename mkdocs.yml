@@ -6,7 +6,7 @@ theme:
     primary: lime
 nav:
   - Home: index.md
-  - Getting started: getting_started.md
+  - Getting started: getting-started.md
   - Hardware: 
     - hardware.md
     - Build your own: hardware-ref/build-your-own.md
@@ -19,4 +19,3 @@ nav:
     - software.md
     - Compile from source: software-ref/compile-from-source.md
     - Introduction: software-ref/introduction.md
-    
