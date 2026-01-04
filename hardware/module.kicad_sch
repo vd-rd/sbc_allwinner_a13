@@ -1078,9 +1078,9 @@
 		)
 		(uuid "073254f5-0e0a-49df-8325-3a2ba1e5d8f2")
 	)
-	(text "VddLCD (+3.3V)"
+	(text "VddWiFi (+3.3V)"
 		(exclude_from_sim no)
-		(at 178.562 98.044 0)
+		(at 179.07 97.79 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2020,7 +2020,7 @@
 		)
 		(uuid "fa6850e6-05b1-4859-b8ce-0bf85e75bda6")
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_periph"
 		(shape input)
 		(at 25.4 144.78 180)
 		(fields_autoplaced yes)
@@ -2030,9 +2030,9 @@
 			)
 			(justify right)
 		)
-		(uuid "72546357-7673-4a84-9173-f883b575a71f")
+		(uuid "81c71650-a24f-4aa2-87ba-d42b1dd8bc73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9069 144.8594 0)
+			(at 10.4406 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
