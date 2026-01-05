@@ -4709,6 +4709,16 @@
 		)
 		(uuid "520b03c8-f2ee-4157-b980-979c6e79080b")
 	)
+	(label "lx3"
+		(at 173.99 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "996a2db5-67cf-434d-b9d4-0a71a0fa5661")
+	)
 	(label "lx1"
 		(at 238.76 72.39 0)
 		(effects
@@ -4728,6 +4738,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac236883-94d6-4a96-9c15-6a9c5dc87402")
+	)
+	(label "lx2"
+		(at 173.99 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9764260-3751-4ebe-8614-0d7fb757fb56")
 	)
 	(label "lx1"
 		(at 186.69 58.42 0)
@@ -11074,7 +11094,7 @@
 		(dnp no)
 		(uuid "d50a4664-8430-4970-bf86-94b3893d99bd")
 		(property "Reference" "L4"
-			(at 173.2966 77.5405 90)
+			(at 176.53 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11293,7 @@
 		(dnp no)
 		(uuid "e0cf99b0-4fdf-48e4-85d1-913fd63b04de")
 		(property "Reference" "L5"
-			(at 173.2966 90.2405 90)
+			(at 176.53 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)

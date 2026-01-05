@@ -5109,12 +5109,6 @@
 		(uuid "e2a32405-536f-49d5-8cab-4b90d6615551")
 	)
 	(junction
-		(at 208.28 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7b85e10-7383-4228-a20c-fa7f6aeb2ccb")
-	)
-	(junction
 		(at 50.8 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5207,16 +5201,6 @@
 			(type solid)
 		)
 		(uuid "0835cb07-9a31-44a4-b893-d33e4be0172f")
-	)
-	(wire
-		(pts
-			(xy 204.47 78.74) (xy 208.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09c9d23f-24cf-4e79-90e9-1faed7b1e0bd")
 	)
 	(wire
 		(pts
@@ -6170,7 +6154,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 247.65 78.74)
+			(xy 204.47 78.74) (xy 247.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8735,76 +8719,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 208.28 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12d2ca10-0978-4cda-bbc0-766ef018bea3")
-		(property "Reference" "C37"
-			(at 210.82 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 210.82 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 208.28 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23d0e929-f5a1-4c62-b387-0887d9659f38")
-		)
-		(pin "2"
-			(uuid "8f577817-ea32-42aa-bedc-809b6d0ffec6")
-		)
-		(instances
-			(project "module"
-				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/9546cd04-00fc-4f4e-96e6-36ef0ef6e918"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x18_Odd_Even")
 		(at 52.07 149.86 180)
 		(unit 1)
@@ -10069,72 +9983,6 @@
 			(project "module"
 				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/9546cd04-00fc-4f4e-96e6-36ef0ef6e918"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91d80474-12a4-42ec-a430-0f4bfc41a2cd")
-		(property "Reference" "#PWR0128"
-			(at 208.28 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac975f7b-5c1b-42e6-a54b-1829692bd60c")
-		)
-		(instances
-			(project "module"
-				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/9546cd04-00fc-4f4e-96e6-36ef0ef6e918"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
