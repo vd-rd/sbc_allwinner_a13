@@ -2989,7 +2989,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_GRBA"
+		(symbol "Device:LED_BAGR"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3005,7 +3005,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_GRBA"
+			(property "Value" "LED_BAGR"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -3031,7 +3031,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, green/red/blue/anode"
+			(property "Description" "RGB LED, blue/anode/green/red"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3058,7 +3058,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_GRBA_0_0"
+			(symbol "LED_BAGR_0_0"
 				(text "R"
 					(at -1.905 3.81 0)
 					(effects
@@ -3084,7 +3084,7 @@
 					)
 				)
 			)
-			(symbol "LED_GRBA_0_1"
+			(symbol "LED_BAGR_0_1"
 				(polyline
 					(pts
 						(xy -1.27 6.35) (xy -1.27 3.81)
@@ -3416,7 +3416,7 @@
 					)
 				)
 			)
-			(symbol "LED_GRBA_1_1"
+			(symbol "LED_BAGR_1_1"
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 2.54)
@@ -3427,7 +3427,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3445,7 +3445,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3463,7 +3463,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3481,7 +3481,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6780,7 +6780,7 @@
 	)
 	(global_label "RSB-SCK"
 		(shape input)
-		(at 67.31 63.5 0)
+		(at 81.28 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6790,7 +6790,7 @@
 		)
 		(uuid "12b16bce-22d6-4d74-802e-7a559c6d67ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.6992 63.5794 0)
+			(at 92.6692 63.5794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +6800,7 @@
 			)
 		)
 	)
-	(global_label "+3V3_LDO"
+	(global_label "+Vlcd"
 		(shape input)
 		(at 67.31 66.04 0)
 		(fields_autoplaced yes)
@@ -6812,7 +6812,7 @@
 		)
 		(uuid "146f317f-a4cc-48a2-9995-e54ca5e5c03d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.3993 65.9606 0)
+			(at 75.859 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,28 +7196,6 @@
 			)
 		)
 	)
-	(global_label "+3V3_LDO"
-		(shape input)
-		(at 132.08 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ac03420-8bfa-40fb-8803-aad1bebec74e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.1693 44.3706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LCD-D10"
 		(shape output)
 		(at 34.29 88.9 180)
@@ -7242,7 +7220,7 @@
 	)
 	(global_label "RSB-SDA"
 		(shape bidirectional)
-		(at 34.29 66.04 180)
+		(at 25.4 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7252,7 +7230,7 @@
 		)
 		(uuid "62132931-71ca-48c9-b7c1-b78d2d7079cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.0822 65.9606 0)
+			(at 14.1922 65.9606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,6 +7988,28 @@
 			)
 		)
 	)
+	(global_label "+Vlcd"
+		(shape input)
+		(at 132.08 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf33411f-0e1d-4b7d-ae07-fe8ffa731c31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.629 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI-CLK"
 		(shape output)
 		(at 64.77 139.7 0)
@@ -8491,80 +8491,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_GRBA")
-		(at 62.23 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0329f31d-8734-475e-9905-f9c455324dbc")
-		(property "Reference" "D1"
-			(at 62.23 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_RGBA"
-			(at 62.23 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "led:rgb-1204"
-			(at 62.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f75ea3e-6135-44f5-9313-1aad839ab6f6")
-		)
-		(pin "2"
-			(uuid "2330617f-82c2-43f9-8a7c-826ddfdbb89f")
-		)
-		(pin "3"
-			(uuid "321c97ce-037e-4926-8c05-7be14a63f7fd")
-		)
-		(pin "4"
-			(uuid "d6962950-4b71-4ba8-ac78-7b9bfb3edf70")
-		)
-		(instances
-			(project "module"
-				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/9546cd04-00fc-4f4e-96e6-36ef0ef6e918"
-					(reference "D1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -10197,6 +10123,80 @@
 			(project "module"
 				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/9546cd04-00fc-4f4e-96e6-36ef0ef6e918"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_BAGR")
+		(at 62.23 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4eb6a08-c6ea-4ad9-a044-fa1ac792e573")
+		(property "Reference" "D4"
+			(at 62.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_BAGR"
+			(at 62.23 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "led:LED_RGB_Optosupply_OSTB0805C1E-A-0.8T"
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, blue/anode/green/red"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e5d6499-fece-4bdc-8ad2-552b1ef8a53b")
+		)
+		(pin "3"
+			(uuid "666640c0-b39a-4338-b820-db7d25edf93b")
+		)
+		(pin "4"
+			(uuid "54c91f57-4b5a-403c-a88e-d32468506f8c")
+		)
+		(pin "1"
+			(uuid "b25a8be4-4ebb-4cc9-aa3e-f08fc26a7d66")
+		)
+		(instances
+			(project ""
+				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/9546cd04-00fc-4f4e-96e6-36ef0ef6e918"
+					(reference "D4")
 					(unit 1)
 				)
 			)
