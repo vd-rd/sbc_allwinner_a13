@@ -1105,7 +1105,7 @@
         "uuid": "be5594de-3f2c-4f50-9b5f-8272d138a20c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R803,R805",
     "variants": []
   },
   "sheets": [
@@ -1130,7 +1130,9 @@
       "PMIC & power rails"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "BOARD_REV": "2.0"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
