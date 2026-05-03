@@ -2706,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc6cdb5-1df2-4cd4-ba9f-0a17c71fffd4")
-		(property "Reference" "U2"
+		(property "Reference" "U300"
 			(at 70.485 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2780,7 +2780,7 @@
 		(instances
 			(project "module"
 				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c"
-					(reference "U2")
+					(reference "U300")
 					(unit 1)
 				)
 			)

@@ -3,11 +3,11 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "apply_defaults_to_fp_barcodes": false,
-        "apply_defaults_to_fp_dimensions": false,
-        "apply_defaults_to_fp_fields": false,
-        "apply_defaults_to_fp_shapes": false,
-        "apply_defaults_to_fp_text": false,
+        "apply_defaults_to_fp_barcodes": true,
+        "apply_defaults_to_fp_dimensions": true,
+        "apply_defaults_to_fp_fields": true,
+        "apply_defaults_to_fp_shapes": true,
+        "apply_defaults_to_fp_text": true,
         "board_outline_line_width": 0.1,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
@@ -51,7 +51,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.16
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -141,7 +141,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1016,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.4,
+        "min_copper_edge_clearance": 0.35,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
@@ -151,10 +151,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.12,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.125,
-        "min_via_diameter": 0.4,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.005,
@@ -206,6 +206,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1016,
         0.127,
         0.145,
         0.154,
@@ -644,11 +645,19 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.1016,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "power-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -1105,7 +1114,7 @@
         "uuid": "be5594de-3f2c-4f50-9b5f-8272d138a20c"
       }
     ],
-    "used_designators": "R803,R805",
+    "used_designators": "R23,R803,R805",
     "variants": []
   },
   "sheets": [
