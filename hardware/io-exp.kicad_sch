@@ -5846,16 +5846,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 134.62) (xy 44.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "54ade02b-0853-4d11-af8e-83301136ec7f")
-	)
-	(wire
-		(pts
 			(xy 41.91 81.28) (xy 44.45 81.28)
 		)
 		(stroke
@@ -6203,16 +6193,6 @@
 			(type default)
 		)
 		(uuid "880c8321-773b-4812-ac91-2979272cac8e")
-	)
-	(wire
-		(pts
-			(xy 57.15 134.62) (xy 64.77 134.62)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8b915f7e-5906-415d-b180-7e44b93e0fa0")
 	)
 	(wire
 		(pts
@@ -6666,16 +6646,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 127) (xy 64.77 127)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "debc0703-92d7-4b23-9bc6-bb7bf4610d9e")
-	)
-	(wire
-		(pts
 			(xy 228.6 152.4) (xy 228.6 154.94)
 		)
 		(stroke
@@ -6921,30 +6891,6 @@
 		(uuid "0e4bc78d-2163-408b-98a0-20832ab2c20f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.5526 86.4394 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CAN-TX"
-		(shape output)
-		(at 64.77 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11aa712a-4c2f-43e0-b971-ede9d0319e63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6217 134.5406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,30 +7211,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIOA5"
-		(shape bidirectional)
-		(at 64.77 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "470320e2-7a4a-4db7-a4e6-edb1dc9aa1bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.9564 126.9206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8588,30 +8510,6 @@
 			)
 		)
 	)
-	(global_label "CAN-RX"
-		(shape input)
-		(at 39.37 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea0875e8-5dfb-498b-9b4a-46017e9523e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.2159 134.5406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "LCD-D21"
 		(shape output)
 		(at 67.31 73.66 0)
@@ -9361,7 +9259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "200k"
 			(at 218.44 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9531,7 +9429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9757,7 +9655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "47k"
 			(at 218.44 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,7 +9737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 246.38 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
