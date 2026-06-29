@@ -1,0 +1,163 @@
+# .github/workflows/kicad-release.yml
+#
+# Triggered on every published GitHub Release.
+# Generates and attaches to the release:
+#   • <project>-front.png   — raytraced top render
+#   • <project>-back.png    — raytraced bottom render
+#   • <project>-schematic.pdf
+#   • <project>-gerbers.zip — Gerbers + Excellon drill files
+#
+# Requirements:
+#   • One .kicad_pro file at repo root or one directory deep.
+#   • The .kicad_pcb and .kicad_sch files share the project name.
+#   • Docker is available on the runner (true for ubuntu-latest).
+#
+# To use a specific KiCad version, change KICAD_IMAGE below.
+# Use the -full variant (e.g. kicad/kicad:10.0-full) if your board
+# references 3D models from the official KiCad library.
+
+name: KiCad Release Artifacts
+
+on:
+  release:
+    types: [published]
+
+env:
+  KICAD_IMAGE: kicad/kicad:10.0
+
+jobs:
+  build:
+    name: Generate KiCad artifacts
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # required to upload assets to the release
+
+    steps:
+      # ── 1. Source ──────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Locate project files ────────────────────────────────────────────
+      #  Finds the .kicad_pro and derives sibling PCB / root schematic paths.
+      #  Fails early with a clear message if nothing is found.
+      - name: Locate KiCad project files
+        id: kicad
+        run: |
+          PRJ=$(find . -maxdepth 2 -name "*.kicad_pro" ! -path "*/.*" | sort | head -1)
+          if [[ -z "$PRJ" ]]; then
+            echo "::error::No .kicad_pro file found (searched up to 2 levels deep)."
+            exit 1
+          fi
+
+          BASENAME=$(basename "$PRJ" .kicad_pro)
+          PROJDIR=$(dirname "$PRJ")
+          PCB="${PROJDIR}/${BASENAME}.kicad_pcb"
+          SCH="${PROJDIR}/${BASENAME}.kicad_sch"
+
+          for f in "$PCB" "$SCH"; do
+            if [[ ! -f "$f" ]]; then
+              echo "::error::Expected file not found: $f"
+              exit 1
+            fi
+          done
+
+          echo "name=${BASENAME}" >> "$GITHUB_OUTPUT"
+          echo "pcb=${PCB}"       >> "$GITHUB_OUTPUT"
+          echo "sch=${SCH}"       >> "$GITHUB_OUTPUT"
+
+          echo "Project  : $PRJ"
+          echo "PCB file : $PCB"
+          echo "SCH file : $SCH"
+
+      # ── 3. Pull image (cached between runs by the runner) ──────────────────
+      - name: Pull KiCad Docker image
+        run: docker pull "$KICAD_IMAGE"
+
+      # ── 4. PCB renders ────────────────────────────────────────────────────
+      #  pcb render uses the KiCad raytracer; xvfb-run provides a virtual
+      #  display for the OpenGL/Mesa context inside the container.
+      #  --quality high   → full raytracing (slower but production-quality)
+      #  --background transparent → transparent PNG background
+      #
+      #  Swap --quality to "basic" for a much faster non-raytraced render.
+      - name: Render PCB — top side
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            "$KICAD_IMAGE" \
+            xvfb-run kicad-cli pcb render \
+              --side top \
+              --quality high \
+              --background transparent \
+              --width 2560 --height 1440 \
+              -o "${{ steps.kicad.outputs.name }}-front.png" \
+              "${{ steps.kicad.outputs.pcb }}"
+
+      - name: Render PCB — bottom side
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            "$KICAD_IMAGE" \
+            xvfb-run kicad-cli pcb render \
+              --side bottom \
+              --quality high \
+              --background transparent \
+              --width 2560 --height 1440 \
+              -o "${{ steps.kicad.outputs.name }}-back.png" \
+              "${{ steps.kicad.outputs.pcb }}"
+
+      # ── 5. Schematic PDF ──────────────────────────────────────────────────
+      #  Exports all schematic sheets into a single multi-page PDF.
+      - name: Export schematic PDF
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            "$KICAD_IMAGE" \
+            kicad-cli sch export pdf \
+              -o "${{ steps.kicad.outputs.name }}-schematic.pdf" \
+              "${{ steps.kicad.outputs.sch }}"
+
+      # ── 6. Gerbers ────────────────────────────────────────────────────────
+      #  Copper + mask + silk + paste + courtyard + edge-cuts Gerbers, plus
+      #  Excellon drill files (plated and non-plated in separate files).
+      - name: Export Gerber layers
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            "$KICAD_IMAGE" \
+            kicad-cli pcb export gerbers \
+              --output gerbers/ \
+              "${{ steps.kicad.outputs.pcb }}"
+
+      - name: Export drill files
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work \
+            "$KICAD_IMAGE" \
+            kicad-cli pcb export drill \
+              --output gerbers/ \
+              --format excellon \
+              --excellon-units mm \
+              --excellon-separate-th \
+              "${{ steps.kicad.outputs.pcb }}"
+
+      - name: Package Gerbers into ZIP
+        run: |
+          zip -r "${{ steps.kicad.outputs.name }}-gerbers.zip" gerbers/
+          echo "Gerber package contents:"
+          unzip -l "${{ steps.kicad.outputs.name }}-gerbers.zip"
+
+      # ── 7. Attach to release ──────────────────────────────────────────────
+      - name: Upload artifacts to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.kicad.outputs.name }}-front.png
+            ${{ steps.kicad.outputs.name }}-back.png
+            ${{ steps.kicad.outputs.name }}-schematic.pdf
+            ${{ steps.kicad.outputs.name }}-gerbers.zip
