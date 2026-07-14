@@ -839,8 +839,8 @@
 		(uuid "137484b3-9d0b-4327-ad62-629ba5c6df12")
 	)
 	(rectangle
-		(start 208.28 80.01)
-		(end 233.68 67.31)
+		(start 208.28 67.31)
+		(end 233.68 80.01)
 		(stroke
 			(width 0)
 			(type default)

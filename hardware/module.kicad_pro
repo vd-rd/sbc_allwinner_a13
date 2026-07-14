@@ -1267,7 +1267,7 @@
         "uuid": "be5594de-3f2c-4f50-9b5f-8272d138a20c"
       }
     ],
-    "used_designators": "R23,R803,R805",
+    "used_designators": "SW3,#PWR2-3,TP6,R17,R22-23,R803,R805",
     "variants": []
   },
   "sheets": [

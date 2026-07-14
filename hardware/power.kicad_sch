@@ -2834,12 +2834,6 @@
 		(uuid "22ad2673-9329-4a09-b0e2-d621e2228776")
 	)
 	(junction
-		(at 49.53 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "241af5d8-faa8-4344-989f-9f3ca2c1551f")
-	)
-	(junction
 		(at 83.82 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3877,16 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 57.15) (xy 49.53 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ddfb4a-bec3-4f62-8129-0cd32bef34d6")
-	)
-	(wire
-		(pts
 			(xy 58.42 161.29) (xy 83.82 161.29)
 		)
 		(stroke
@@ -4567,16 +4551,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 167.64 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da8bd354-702b-411b-9934-e9fc3c20e52f")
-	)
-	(wire
-		(pts
 			(xy 49.53 102.87) (xy 53.34 102.87)
 		)
 		(stroke
@@ -4697,7 +4671,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 120.65) (xy 160.02 120.65)
+			(xy 149.86 120.65) (xy 157.48 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6357,7 +6331,7 @@
 			(justify left bottom)
 		)
 		(uuid "9a4363e9-a918-4a5d-a8cf-2f8e412f5665")
-		(property "Net Class" "power-lines"
+		(property "Netclass" "power-lines"
 			(at 243.2685 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12948,7 +12922,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 115.57 0)
+		(at 162.56 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12958,7 +12932,7 @@
 		(dnp no)
 		(uuid "e4858d42-e5ae-4820-811d-abb9f6292b1e")
 		(property "Reference" "#PWR0137"
-			(at 167.64 121.92 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12969,7 +12943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 117.5926 0)
+			(at 166.37 117.5926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12979,7 +12953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 115.57 0)
+			(at 162.56 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12990,7 +12964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 115.57 0)
+			(at 162.56 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13001,7 +12975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 115.57 0)
+			(at 162.56 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
